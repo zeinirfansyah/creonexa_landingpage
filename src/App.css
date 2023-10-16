@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,800;1,6..12,600;1,6..12,700&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Handlee", cursive;
+  font-family: "Nunito Sans", sans-serif;
+  color: #404040;
+}
+
+p {
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+.btn1 {
+  background-color: #ff6a00;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-shadow: 1px 1px 1px #0000005e;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ffae00;
+  color: white;
+  text-shadow: 1px 1px 1px #0000005e;
+  transition: all 0.5s ease-in-out;
+}

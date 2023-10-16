@@ -1,0 +1,38 @@
+.Hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hero .desc {
+  text-align: start;
+  margin-top: 4rem;
+}
+
+.Hero .image .foto {
+  animation: float 2s ease-in-out infinite;
+}
+
+.Hero .blob_topright {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 70vh;
+}
+
+/* keyframe animation float */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
